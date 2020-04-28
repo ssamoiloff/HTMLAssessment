@@ -1,0 +1,58 @@
+.subjectHeader {
+  color: #00ff7b;
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#scoreBoard thead {
+  color: #ea00ff;
+  font-weight: bold;
+}
+
+#scoreBoard th, td {
+  border: 1px solid black;
+}
+
+li {
+  list-style-type: square;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+blockquote {
+  color: yellow;
+  background-color: #006d75;
+  display: inline;
+}
+
+#teamRoster img {
+  display: none;
+}
+
+#teamRoster>li:first-child>ul {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg');
+  background-size: 85px 85px;
+  background-repeat: no-repeat;
+}
+
+#teamRoster>li:last-child>ul {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg');
+  background-size: 85px 85px;
+  background-repeat: no-repeat;
+}
+
+#checkbox-grid li {
+  list-style-type: none;
+}
+
+/* STRETCH GOALS */
+#teamRoster li ul ol:first-child {
+  font-weight: bold;
+}
