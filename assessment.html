@@ -43,11 +43,11 @@
     <table>
       <caption>Scores by quarter</caption>
       <thead>
-        <tr style="font-weight:bold">
-          <td rowspan="2">Team Name</td>
-          <td colspan="2">First Half</td>
-          <td colspan="2">Second Half</td>
-          <td>Final</td>
+        <tr>
+          <td rowspan="2"><strong>Team Name</strong></td>
+          <td colspan="2"><strong>First Half</strong></td>
+          <td colspan="2"><strong>Second Half</strong></td>
+          <td><strong>Final</strong></td>
         </tr>
         <tr>
           <td>Q1</td>
@@ -75,13 +75,13 @@
         </tr>
       </tbody>
       <tfoot>
-        <tr style="font-weight:bold">
-          <td>Total</td>
-          <td>7</td>
-          <td>9</td>
-          <td>3</td>
-          <td>13</td>
-          <td>32</td>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>7</strong></td>
+          <td><strong>9</strong></td>
+          <td><strong>3</strong></td>
+          <td><strong>13</strong></td>
+          <td><strong>32</strong></td>
         </tr>
       </tfoot>
     </table>
@@ -105,20 +105,51 @@
       <li><img src="https://static.www.nfl.com/image/private/t_q-best/league/ra0poq2ivwyahbaq86d2" alt="Chicago Bears Logo" width="64" height="64"><br>
         <a href="https://www.chicagobears.com/">Chicago Bears</a>
         <ul>
-        <li>Coach: Matt Nagy</li>
-        <li>QB
-          <ol>
-            <li>Jay Cutler</li>
-            <li>David Foles</li>
-          </ol>
-        </li>
+          <li>Coach: Matt Nagy</li>
+          <li>QB
+            <ol>
+              <li>Jay Cutler</li>
+              <li>David Foles</li>
+            </ol>
+          </li>
         </ul>
       </li>
     </ul>
   </div>
   <div id="form">
     <h2>FORM</h2>
-
+    <form action="assessment.html" method="post">
+      First: <input type="text" name="first">
+      Last: <input type="text" name="last">
+    </form>
+    <form>
+      <br>Favorite Sport:<br>
+      <select name="Favorite Sport">
+        <option value="football">Football</option>
+        <option value="baseball">Baseball</option>
+        <option value="basketball">Basketball</option>
+        <option value="rally">Rally</option>
+        <option value="motogp">MotoGP</option>
+      </select>
+    </form>
+    <form>
+      <br>I have:
+      <input type="checkbox" name="attended">Attended
+      <input type="checkbox" name="played">Played
+      <input type="checkbox" name="coached">Coached
+      <input type="checkbox" name="beton">Bet on
+      <br>this sport.
+    </form>
+    <form>
+      <br>For this sport I prefer the:
+      <input type="radio" name="ameteur">Ameteur
+      <input type="radio" name="college">College
+      <input type="radio" name="pro">Professional
+    </form>
+    <form>
+      <br>
+      <input type="submit" name="submit" value="Submit Query">
+    </form>
   </div>
 </body>
 
